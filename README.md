@@ -65,6 +65,8 @@ git clone git@github.com:alexsolda/cnpj-finder.git
 npm install
 ```
 
+ou
+
 ```bash
 yarn
 ```
@@ -74,6 +76,8 @@ yarn
 ```bash
 npm run serve
 ```
+
+ou
 
 ```bash
 yarn serve
