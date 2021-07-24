@@ -16,7 +16,7 @@
  
 </p>
 <h1 align="center">
-    <img alt="MyBank App" title="#Mybankapp" src="https://user-images.githubusercontent.com/62905501/120028990-db184800-bfcb-11eb-8f77-3d25128225d5.png" />
+    <img alt="MyBank App" title="#Mybankapp" src="https://user-images.githubusercontent.com/62905501/126878626-56068e60-0275-4488-9d60-8189cd2b533f.png" />
 </h1>
 
 <h4 align="center"> 
