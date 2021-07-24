@@ -16,11 +16,11 @@
  
 </p>
 <h1 align="center">
-    <img alt="MyBank App" title="#Mybankapp" src="https://user-images.githubusercontent.com/62905501/126878626-56068e60-0275-4488-9d60-8189cd2b533f.png" />
+    <img alt="Cnpj - finder" title="#cnpjfinder" src="https://user-images.githubusercontent.com/62905501/126878626-56068e60-0275-4488-9d60-8189cd2b533f.png" />
 </h1>
 
 <h4 align="center"> 
-  MyBank :bank: Em evolução 🚧
+  CNPJ Finder
 </h4>
 
 
@@ -28,19 +28,14 @@
 
 ## 💻 Sobre o projeto
 
-:bank: MyBank - é um aplicativo com o intuito de ajudar na organização das suas finanças pessoais.
+:bank: CNPJ - finder é um app para consulta de dados de CNPJ através de API pública.
 
-
-Projeto pessoal desenvolvido para agregar em meu portifólio.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- [x] Cadastro simplificado.
-- [ ] Criar diversas contas. 
-- [ ] Adicionar e remover valores.
-- [ ] Consultar histórico de transações (em construção).
+- [x] Consulta de dados do CNPJ.
 
 ---
 
@@ -50,8 +45,8 @@ Projeto pessoal desenvolvido para agregar em meu portifólio.
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Criar um projeto no [Firebase](https://firebase.google.com/?gclid=CjwKCAjwqcKFBhAhEiwAfEr7zfNv9N5J6Q8by8vxLtLf1oiEk-MRx7AskpkQUcZvEcmU370MJsB8CBoC8FMQAvD_BwE&gclsrc=aw.ds)
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Vue-cli](https://cli.vuejs.org/)
+
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ---
@@ -61,22 +56,8 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 # Clone este repositório
 ```bash
-git clone git@github.com:alexsolda/mybank.git
+git clone git@github.com:alexsolda/cnpj-finder.git
 ```
-
-# Crie um arquivo .env.local com as seguintes chaves:
-#### Atribua as configurações do seu Firebase a cada chave.
-```bash
-REACT_APP_FIREBASE_API_KEY
-REACT_APP_FIREBASE_AUTH_DOMAIN
-REACT_APP_FIREBASE_PROJECT_ID
-REACT_APP_FIREBASE_STORAGE_BUCKET
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID
-REACT_APP_FIREBASE_APP_ID
-```
-
-
-
 
 
 # Instale as dependências
@@ -84,13 +65,21 @@ REACT_APP_FIREBASE_APP_ID
 npm install
 ```
 
+```bash
+yarn
+```
+
 
 # Execute a aplicação em modo de desenvolvimento
 ```bash
-npm run start
+npm run serve
 ```
 
-#### A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```bash
+yarn serve
+```
+
+#### A aplicação será aberta na porta:8080 - acesse http://localhost:8080
 
 
 
@@ -100,12 +89,9 @@ npm run start
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
--   **[React](https://reactjs.org/) **
--   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
--   **[Context API](https://pt-br.reactjs.org/docs/context.html)**
--   **[styled-components](https://styled-components.com/)**
--   **[Material UI Icons](https://material-ui.com/pt/components/material-icons//)**
--   **[Firebase](https://firebase.google.com/?hl=pt)**
+-   **[Vue.js](https://vuejs.org/) **
+-   **[Axios](https://github.com/axios/axios)**
+
 
 ---
 
