@@ -24,7 +24,7 @@
 </h4>
 
 <h4 align="center">
-  <a target="blank" href="https://cnpj-finder.netlify.app/">ACESSO</a>
+  <a href="https://cnpj-finder.netlify.app/">ACESSO</a>
 </h4>
 
 
