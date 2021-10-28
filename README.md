@@ -24,7 +24,7 @@
 </h4>
 
 <h4 align="center">
-[ACESSO](https://cnpj-finder.netlify.app/)
+  <a href="https://cnpj-finder.netlify.app/">ACESSO</a>
 </h4>
 
 
